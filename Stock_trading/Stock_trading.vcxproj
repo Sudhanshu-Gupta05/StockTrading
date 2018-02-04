@@ -18,6 +18,20 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ClientMarketHolders.cpp" />
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\Order.cpp" />
+    <ClCompile Include="..\OrderBook.cpp" />
+    <ClCompile Include="..\StandardMarketPrice.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ClientMarketHolders.h" />
+    <ClInclude Include="..\MarketPrice.h" />
+    <ClInclude Include="..\Order.h" />
+    <ClInclude Include="..\OrderBook.h" />
+    <ClInclude Include="..\StandardMarketPrice.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{83D1951A-8C5C-47A8-8485-2EE28E7877EC}</ProjectGuid>
@@ -111,20 +125,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\ClientMarketHolders.h" />
-    <ClInclude Include="..\..\MarketPrice.h" />
-    <ClInclude Include="..\..\Order.h" />
-    <ClInclude Include="..\..\OrderBook.h" />
-    <ClInclude Include="..\..\StandardMarketPrice.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\ClientMarketHolders.cpp" />
-    <ClCompile Include="..\..\main.cpp" />
-    <ClCompile Include="..\..\Order.cpp" />
-    <ClCompile Include="..\..\OrderBook.cpp" />
-    <ClCompile Include="..\..\StandardMarketPrice.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
