@@ -1,5 +1,6 @@
 #include "ClientMarketHolders.h"
 
+//Function exposed as driver function
 int ClientMarketHolders::CreateMarketPrice(MarketPrice &marketOrder)
 {
 	int operationResult = 0;
