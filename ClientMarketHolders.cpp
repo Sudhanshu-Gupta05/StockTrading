@@ -1,5 +1,6 @@
 #include "ClientMarketHolders.h"
 
+//This is test folder
 int ClientMarketHolders::CreateMarketPrice(MarketPrice &marketOrder)
 {
 	int operationResult = 0;
