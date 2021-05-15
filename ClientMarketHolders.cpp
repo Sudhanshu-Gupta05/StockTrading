@@ -1,6 +1,6 @@
 #include "ClientMarketHolders.h"
 
-//This is test foldgir..
+//Function exposed as driver function
 int ClientMarketHolders::CreateMarketPrice(MarketPrice &marketOrder)
 {
 	int operationResult = 0;
