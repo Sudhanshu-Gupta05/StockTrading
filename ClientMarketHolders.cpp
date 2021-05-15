@@ -1,6 +1,5 @@
 #include "ClientMarketHolders.h"
 
-//Function exposed as driver function. Merging on master branch.
 int ClientMarketHolders::CreateMarketPrice(MarketPrice &marketOrder)
 {
 	int operationResult = 0;
