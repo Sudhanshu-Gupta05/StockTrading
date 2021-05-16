@@ -5,7 +5,7 @@ int ClientMarketHolders::CreateMarketPrice(MarketPrice &marketOrder)
 	int operationResult = 0;
 	int menu = 1;
 	int userChoice;
-
+	//Refine this code
 	while (menu)
 	{
 		cout << endl;
