@@ -1,12 +1,11 @@
 #include "ClientMarketHolders.h"
 
-//Function exposed as driver function. Merging on master branch.
 int ClientMarketHolders::CreateMarketPrice(MarketPrice &marketOrder)
 {
 	int operationResult = 0;
 	int menu = 1;
 	int userChoice;
-
+	//Refine this code
 	while (menu)
 	{
 		cout << endl;
